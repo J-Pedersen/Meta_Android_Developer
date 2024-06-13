@@ -1,0 +1,173 @@
+/* ----------------------------------- */
+/*                 IDs                 */
+/* ----------------------------------- */
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    font-size: .75em;
+    margin-bottom: 2rem;
+    color: var(--primary-color-yellow);
+    background-color: var(--primary-color-olive);
+    padding: .5rem;
+    border: .1rem solid var(--primary-color-yellow);
+    border-radius: .4rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color .3s, color .3s;
+    box-shadow: 4px 4px 6px var(--secondary-color-box-shadow); 
+}
+
+#back-to-top:hover,
+#back-to-top:focus,
+#back-to-top:active {
+    background-color: var(--primary-color-yellow);
+    color: var(--primary-color-olive);
+}
+/* ----------------------------------- */
+/*              End IDs                */
+/* ----------------------------------- */
+
+
+/* ----------------------------------- */
+/*              Classes                */
+/* ----------------------------------- */
+.card {
+    max-width: 15rem;
+}
+
+.card img {
+    height: 12rem;
+}
+
+.card-img-container {
+    height: 12rem;
+}
+
+.card li,
+.card p {
+    font-size: 1em;
+    margin: 1rem;
+}
+
+.card .price {
+    position: absolute;
+    top: 17.35rem;
+    left: 1rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 4px -4px 6px var(--secondary-color-box-shadow); 
+    margin: 0 auto;
+    padding-left: 1rem;
+    background-color: var(--primary-color-yellow);
+    width: 50%;
+    color: var(--primary-color-olive);
+    text-shadow: 4px 4px var(--secondary-color-card-text-shadow);
+}
+
+.dish-description:first-letter {
+    font-size: 1.5em;
+    color: var(--primary-color-yellow);
+    padding-right: .1rem;
+    -webkit-text-stroke: 1px var(--primary-color-olive-translucent); /* only applies on firefox browser */
+    text-shadow: 4px 4px var(--secondary-color-card-text-shadow);
+}
+
+.dish-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6.5rem;
+}
+
+.dropbtn {
+    background-color: var(--primary-color-olive);
+    color: var(--primary-color-yellow);
+    padding: .5rem;
+    border-radius: .5rem;
+    font-size: .75em;
+    font-weight: 700;
+    cursor: pointer;
+    border: .1rem solid var(--primary-color-yellow);
+}
+
+.dropbtn.focused {
+    background-color: var(--primary-color-yellow);
+    color: var(--primary-color-olive);
+}
+
+.dropbtn:hover,
+.dropbtn:focus,
+.dropbtn:active {
+    background-color: var(--primary-color-yellow);
+    color: var(--primary-color-olive);
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: var(--primary-color-olive);
+    min-width: max-content;
+    box-shadow: 4px 4px 6px var(--secondary-color-box-shadow);
+    z-index: 1;
+    left: 1rem;
+    border-radius: .5rem;
+    border: 2px solid transparent;
+}
+
+.dropdown-content a {
+    color: var(--primary-color-yellow);
+    padding: .75rem;
+    margin: 0 .5rem;
+    text-decoration: none;
+    display: block;
+    font-weight: 700;
+    border: 2px solid transparent;
+}
+
+.dropdown-content a:hover,
+.dropdown-content a:focus,
+.dropdown-content a:active {
+    border-radius: .5rem;
+    padding: .75rem;
+    margin: 0 .5rem;
+    color: var(--primary-color-olive);
+    background-color: var(--primary-color-yellow);
+    border: var(--primary-color-olive) 2px solid;
+    box-shadow: 4px 4px 6px var(--secondary-color-box-shadow);
+}
+
+.dropdown-menu {
+    position: fixed;
+    top: 15rem;
+    left: .9rem;
+    display: inline-block;
+}
+
+.dropdown-menu:hover .dropdown-content {
+    display: block;    
+    border-radius: .5rem;
+}
+
+.menu-page-header {
+    font-size: 4em;
+}
+
+.menu-section-title {
+    margin-top: 3rem;
+    display: block;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    align-content: center;
+    min-height: 4rem;
+    color: var(--primary-color-olive);
+    text-shadow: 4px 4px var(--secondary-color-card-text-shadow);
+}
+/* ----------------------------------- */
+/*              End Classes            */
+/* ----------------------------------- */
